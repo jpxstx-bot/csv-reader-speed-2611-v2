@@ -1,0 +1,109 @@
+{
+  "competition": "csv-reader-speed-01-run-20261121",
+  "phase": "dev",
+  "driver": "process",
+  "bot": {
+    "path": "/tmp/csv-work/entry",
+    "commit": "worktree@8e701b8ab347",
+    "source": "worktree",
+    "dirty": false,
+    "snapshot_sha256": "98f4ac8e6fd133f94e52813a9d350fe9f8ef419209cb5d452991b06c57dce4a2"
+  },
+  "status": "finished",
+  "error": null,
+  "result": {
+    "schema": "agent-fun/score/v1",
+    "harness": {
+      "kind": "program/v1",
+      "version": "harness@b35f2e285e060931800b6259f06f6e4facdb851f6d49c9d44dff851bf2788442 node v22.23.3"
+    },
+    "scorer_version": "scorer@ba2ab6dc8a98c3d825b0bc2c8444c87a68d2e74315694b01ca6e1fe085517994 program@98d5f96f07e6794d494e0d1f51336fc4ee67ec10f2bcb666d3c28ddd45a6074b",
+    "image_digest": null,
+    "dataset_sha256": "aab71c23d2bdd664ede20c43b59541ce2f459d61cd99fc3d94079b146d05f81a",
+    "action_log_sha256": "a95dd9e1236c392da3f356980ec49588f8e66f65aef7d90f1d54ef7a45cbab9e",
+    "seed": "16771623277196736830",
+    "performance": {
+      "kind": "program/v1",
+      "scores": {
+        "cases_passed": 6,
+        "cases_total": 6,
+        "passed": 1
+      },
+      "passed": true
+    },
+    "cost": {
+      "pricing_rev": "6a262a9d0245fc1bb135c62775a6abd481aace3029ff2857a45310eb172ac899",
+      "micro_usd": null,
+      "priced_micro_usd": "0",
+      "lines": 0,
+      "unpriced_lines": 0,
+      "partial_lines": 0,
+      "inconsistent_lines": 0,
+      "tokens": {
+        "input": "0",
+        "output": "0",
+        "cache_read": "0",
+        "cache_write_5m": "0",
+        "cache_write_1h": "0",
+        "reasoning": "0"
+      },
+      "models": [],
+      "provenance": "none"
+    },
+    "authorship": {
+      "algo_version": 11,
+      "lines_total": 170,
+      "authored": 0,
+      "pasted": 0,
+      "read": 0,
+      "absent": 170,
+      "authored_coverage": "0.000000000",
+      "micro_usd_per_surviving_line": null,
+      "dead_spend": null
+    },
+    "eligibility": {
+      "ranked": true,
+      "prize_eligible": true,
+      "efficiency_eligible": false,
+      "reasons": [
+        "cost_unpriced"
+      ]
+    },
+    "flags": []
+  },
+  "result_sha256": "143c892424ff1ee84da11996911a16787351b7a092b3b4d1668c56953f89855c",
+  "action_log_sha256": "a95dd9e1236c392da3f356980ec49588f8e66f65aef7d90f1d54ef7a45cbab9e",
+  "l1": {
+    "reproduced": true,
+    "error": null
+  },
+  "mismatches": [
+    "node: the server's harness runs v26.13.1, this one v22.23.3"
+  ],
+  "expected": null,
+  "notes": [
+    "process driver: the bot ran on this machine unisolated and the score records no image digest; a server grading in its docker sandbox records one, so only a server on the process driver (a dev server) records this result_sha256"
+  ],
+  "stderr_tail": "",
+  "instance": {
+    "purpose": "practice",
+    "round": 34140941,
+    "instance_sha256": "aab71c23d2bdd664ede20c43b59541ce2f459d61cd99fc3d94079b146d05f81a"
+  },
+  "breakdown": {
+    "format": "agent-fun/trace/v1",
+    "kind": "checks",
+    "aggregation": "sum",
+    "trials": 1,
+    "parts": [
+      {
+        "key": "generated",
+        "group": "generated",
+        "title": "Cases drawn from the seed",
+        "max": 6,
+        "earned": 6
+      }
+    ],
+    "total": 6
+  }
+}

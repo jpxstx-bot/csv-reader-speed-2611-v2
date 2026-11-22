@@ -1,0 +1,20 @@
+{
+  "label": "csv-fuzz-20261121-build-r1",
+  "seed_sha256": "5df1e6b178244de9ef75114ac8e27ebbd0c2e982d39a5651d75145ab93ebfabf",
+  "seed32": 2984702301,
+  "alphabet": [
+    "a",
+    "b",
+    "comma",
+    "CR",
+    "LF",
+    "quote",
+    "optional leading BOM"
+  ],
+  "structured": 64,
+  "random": 4000,
+  "total": 4064,
+  "fail": 0,
+  "ms": 1077,
+  "counterexample": null
+}

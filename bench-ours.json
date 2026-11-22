@@ -1,0 +1,55 @@
+{
+  "which": "ours",
+  "node": "v22.23.3",
+  "rounds": 9,
+  "samples": [
+    {
+      "cpu_us": 202118,
+      "wall_us": 171389,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 203141,
+      "wall_us": 167602,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 361809,
+      "wall_us": 249294,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 188040,
+      "wall_us": 160793,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 196548,
+      "wall_us": 165604,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 202447,
+      "wall_us": 169200,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 198290,
+      "wall_us": 167177,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 336379,
+      "wall_us": 235179,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 183107,
+      "wall_us": 157765,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    }
+  ],
+  "trimmed_mean_cpu_us": 200509,
+  "identical_runs": true,
+  "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+}

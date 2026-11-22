@@ -1,0 +1,55 @@
+{
+  "which": "base",
+  "node": "v22.23.3",
+  "rounds": 9,
+  "samples": [
+    {
+      "cpu_us": 440826,
+      "wall_us": 301175,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 504704,
+      "wall_us": 330771,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 835624,
+      "wall_us": 512895,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 846794,
+      "wall_us": 517745,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 406517,
+      "wall_us": 273454,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 397697,
+      "wall_us": 278090,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 1116527,
+      "wall_us": 636337,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 406962,
+      "wall_us": 283401,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    },
+    {
+      "cpu_us": 396331,
+      "wall_us": 274074,
+      "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+    }
+  ],
+  "trimmed_mean_cpu_us": 518927,
+  "identical_runs": true,
+  "digest": "bb5b6cc5c523edf0b18a20cd1f577b0d461b3ae021fd3ab2c9b4e4a5f01002ed"
+}
