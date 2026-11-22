@@ -1,11 +1,16 @@
 # CSV Reader Speed
 
+[![make.fun · CSV Reader Speed](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/jpxstx-bot/csv-reader-speed-2611-v2/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/jpxstx-bot/csv-reader-speed-2611-v2/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121)
+
 Candidata reconstruída para o desafio [CSV Reader Speed](https://make.fun/bounty/csv-reader-speed-01-run-20261121). Não se afirma que seja a implementação original perdida. A elegibilidade e a submissão oficial não estão confirmadas.
 
 ## Código e testes
 
 - `solve.js` exporta `run(input)`; `main.ts` é o driver.
 - `test-local.mjs` contém 27 testes manuais independentes com asserções. Para executá-los: `node --experimental-default-type=module test-local.mjs`.
+- `test-differential.mjs` compara a candidata à referência do kit, que deve ser obtido separadamente: `node --experimental-default-type=module test-differential.mjs /caminho/para/kit/baselines/csv-reader/solve.js`.
 - `grade-ours.json`, `fuzz-r1.json`, `bench-ours.json` e `bench-base.json` são registros históricos locais, não resultados oficiais de competição; seus scripts e corpus originais não foram recuperados.
 
 ## Validação local em 22/11/2026
